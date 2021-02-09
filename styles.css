@@ -1,0 +1,75 @@
+@font-face {
+	src: url(fonts/Ubuntu.ttf);
+	font-family: Ubuntu;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Ubuntu;
+	background-color:rgba(219, 108, 244, 0.79);
+}
+
+#heading {
+	text-align: center;
+	line-height: 5em;
+	text-transform: uppercase;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	padding: 2em;
+	background-color: #fff;
+	width: 30%;
+	margin: 0 auto;
+	height: 10em;
+	border-radius: 30px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07), 
+				0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.timer {
+	font-size: 2.5rem;
+	border: 1px solid #1e1e1e;
+	padding: 0.5em;
+	color: white;
+	background-color: #1e1e1e;
+	border-radius: 130px;
+	font-weight: 500;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07), 
+				0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+	margin-top: 1em;
+}
+
+#start, #stop, #reset {
+	background: white;
+	cursor: pointer;
+	padding: 0.5rem 2rem;
+	border-radius: 30px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.07), 
+				0 4px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#start {
+	color: green;
+	border:1px solid green;
+}
+
+#stop {
+	color: red;
+	border:1px solid red;
+}
+
+#reset {
+	color: #1e1e1e;
+	border:1px solid #1e1e1e;
+}
